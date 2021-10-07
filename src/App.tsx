@@ -3,14 +3,14 @@ import Routes from "./routes";
 import GlobalStyle from "./styles/global";
 
 const App = (): JSX.Element => {
-  return (
-    <>
-      <GlobalStyle />
-      <Router>
-        <Routes />
-      </Router>
-    </>
-  );
+    return (
+        <>
+            <GlobalStyle />
+            <Router>
+                <Routes />
+            </Router>
+        </>
+    );
 };
 
 export default App;
